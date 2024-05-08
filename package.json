@@ -1,0 +1,11 @@
+{
+  "name": "radiabee-nginx",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/JSDC-GIS/radiabee-nginx.git",
+  "author": "jimmg35 <jim60308@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "ci": "docker build . -t radiabee-nginx"
+  }
+}
